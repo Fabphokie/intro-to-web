@@ -1,0 +1,95 @@
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) ;
+    text-align: center;
+    width: 100%;
+    color: rgb(0, 0, 0);
+}    
+
+.flexbox-container {
+    display: flex;
+}
+
+.flexbox-item-2 {
+    
+    background-color: rgb(255, 246, 235);
+    border-color: rgb(131, 137, 137);
+    height: fit-content;
+    width: 900px;
+    border: grey solid;
+    position: relative;
+    padding: 20px;
+    
+
+}
+
+
+
+.flexbox-item-3 {
+    top: 3px;
+    height: 500px;
+    width: 200px;
+    border-color: 1px solid rgb(0, 0, 0);
+    position: relative;
+    left: 1200px;
+    border: 2px solid;
+    padding: 20px;
+    margin-top: -800px;
+    background-color: rgb(218, 216, 213);
+}
+    
+body {
+    background-color: rgb(179, 176, 176);
+
+}
+
+
+
+/*===================== Mobile =================================*/
+@media screen and (max-width: 425px) {
+ .flexbox-item-2{
+    width: 150px;
+ }
+ .flexbox-item-3{
+    left: 195px;
+    width: 150px;
+    top: -1200px;
+ }
+
+
+}
+
+/*===================== Tablet =================================*/
+
+@media screen and (max-width: 768px) {
+    .flexbox-item-2{
+       width: 150px;
+    }
+    .flexbox-item-3{
+       left: 195px;
+       width: 150px;
+       top: -1200px;
+    }
+}
+
+/*===================== Laptop =================================*/
+
+@media screen and (max-width: 1024px) {
+    .flexbox-item-2{
+       width: 150px;
+    }
+    .flexbox-item-3{
+       left: 195px;
+       width: 150px;
+       top: -1200px;
+    }
+}
